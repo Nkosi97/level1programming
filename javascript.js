@@ -7,6 +7,7 @@ console.log("Hello"+ " " +"Tshepo!")
 
 hello()
 
+console.log(" ") //Space
 //Check if a number is even
 function evenOrOdd(num){
 
@@ -18,6 +19,7 @@ if(num % 2 === 0){
 }
 console.log(evenOrOdd(4));
 
+console.log(" ")//Space
 //Draw a square
 
 var dimension = 2;
@@ -31,6 +33,8 @@ for (var i = 1; i <= dimension; i++) {
     console.log(printline);
 }
 
+console.log(" ")//Space
+
 var dimension = 4;
 var edge = '#';
 
@@ -41,6 +45,8 @@ for (var i = 1; i <= dimension; i++) {
     
     console.log(printline);
 }
+
+console.log(" ")//Space
 //Draw a right handed triangle
 
 for(var i = 2; i>=1; i--){
@@ -51,6 +57,8 @@ for(var i = 2; i>=1; i--){
   console.log(str);
 }
 
+console.log(" ")
+
 for(var i = 4; i>=1; i--){
   var str = "";
   for(var j = i; j<=4; j++){
@@ -59,6 +67,7 @@ for(var i = 4; i>=1; i--){
   console.log(str);
 }
 
+console.log(" ")//Space
 //Draw an isosceles triangle
 var x = 2;
 generateIsoscelesTriangle(x);
@@ -81,6 +90,7 @@ function generateIsoscelesTriangle(x) {
 }
 }
 
+console.log(" ")//Space
 
 var x = 4;
 generateIsoscelesTriangle(x);
@@ -102,6 +112,8 @@ function generateIsoscelesTriangle(x) {
         console.log(level);
     }
 }
+
+console.log(" ")//Space
 
 //Find the longest string
 
@@ -128,6 +140,8 @@ function longest(str) {
   
   console.log(longest("the quick brown fox ate my chickens"));
 
+  console.log(" ")//Space
+
 function longest(str) {
 let words = str.split(" ");
 let size = 0;
@@ -151,6 +165,7 @@ return [...max];
 
 console.log(longest("once upon a time"));
 
+console.log(" ")//Space
 // // //Combine two arrays
 
 const num1 = ['11','22','33'];
@@ -162,6 +177,7 @@ combinedArray.push(num1[0], num2[0], num1[1], num2[1], num1[2], num2[2])
 
 console.log(combinedArray);
 
+console.log(" ")//Space
 //Frame some text
 function printFrame(arr) {
     function fill (str, length, char) {
